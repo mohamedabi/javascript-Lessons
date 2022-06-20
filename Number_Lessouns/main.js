@@ -32,7 +32,7 @@ console.log(Math.pow(2, 4)); // 2 * 2 * 2 * 2 = 16
 
 console.log(Math.random());
 
-*/
+
 
 let a = 1_00;
 
@@ -64,4 +64,18 @@ console.log(a** parseInt(d) ); // 10000// 10_000
 
 
 
+
+// Lesouns Nummber_ - String Methods  .
+
+let theName = "    Mohamed  ";
+console.log(theName.trim().charAt(3).toUpperCase());
+
+*/
+
+// Lesouns Nummber_ - String Methods  challenge .
+
+
+let a = "Elzero Web School";
+
+console.log(a.slice(2 , 6).charAt(2, 6).toUpperCase());  //(  ,  dont include the end  and from 0,1,2,3,4,5,6)
 
